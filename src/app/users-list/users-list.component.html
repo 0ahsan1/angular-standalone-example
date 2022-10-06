@@ -1,0 +1,3 @@
+<div class="row" >
+    <app-users-card *ngFor="let user of $Users |async; let i=index" [index]="user.id" class="col-md-6 mb-2" [User]="user"></app-users-card>
+</div>

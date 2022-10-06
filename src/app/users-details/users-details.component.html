@@ -1,0 +1,52 @@
+<div class="topper">
+  <h1>User Details</h1>
+</div>
+<div class="container">
+    <div class="photo">
+      <img [src]="User.image" />
+      <p>Jane Doe</p>
+    </div>
+    <div class="personal">
+      <div>
+       <h3>Address</h3>
+        <p>{{User.address.address}}</p>
+      </div>
+      <div>
+        <h3>Subscription Plan</h3>
+        <p><a href="#">Get Fit Family Pack</a></p>
+      </div>
+    </div>
+    <div class="points">
+      <h4>875</h4>
+      <p>Power Points</p>
+    </div>
+    <div class="deal">
+      <h3>Latest Deal</h3>
+      <img src="http://lorempixel.com/600/215" />
+    </div>
+    <div class="recent">
+      <div>
+        <h4>Recent Activity</h4>
+          <ul>
+            <li>Action 1 <span> 10pts</span></li>
+            <li>Action 2 <span> 5pts</span></li>
+            <li>Action 3 <span> 15pts</span></li>
+            <li>Action 4 <span> 10pts</span></li>
+            <li>Action 5 <span> 30pts</span></li>
+            <li>Action 6 <span> 5pts</span></li>
+          </ul>
+      </div>
+    </div>
+    <div class="bought">
+      <div>
+        <h4>Recent Purchases</h4>
+        <ul>
+          <li>Item 1 <span> 100pts</span></li>
+          <li>Item 2 <span> 50pts</span></li>
+          <li>Item 3 <span> 120pts</span></li>
+          <li>Item 4 <span> 100pts</span></li>
+          <li>Item 5 <span> 50pts</span></li>
+          </ul>
+      </div>
+    </div>
+</div>
